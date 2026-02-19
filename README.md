@@ -1,37 +1,28 @@
 # pscale-touchstone
 
-The reference you check your blocks against.
+The **touchstone** for pscale JSON blocks — a self-describing rendition block that teaches any mind (human or LLM) how to read, write, navigate, and grow semantic number structures.
 
-A **touchstone** is what you test things against — you rub your gold on it to see if it's real. Are your spindles producing coherent context? Touch them against the touchstone.
-
-The block inside a hermitcrab shell is the **keystone** (it holds the arch together). This repo is the **touchstone** — the place you go to verify, compare, and calibrate.
-
-## What is pscale?
-
-Semantic numbers that address meaning, not quantity. Nested JSON where:
-- Digit keys `0-9` are children
-- `_` holds text content  
-- Nesting depth IS the scale
+A touchstone is what you test things against — you rub your gold on it to see if it's real. This block is the reference surface for pscale: if a block follows the format described here, it works.
 
 ## Files
 
-- **`keystone.json`** — Operational specification (~4100 tokens, boot-ready for LLM system prompts)
-- **`keystone-full.json`** — Complete v4 reference including speculative structures (resonance mapping, density compression, standing wave, torus topology)
-- **`fundamentals-typology.md`** — The combinatorial variables that generate all block types
+- **touchstone.json** — Operational touchstone. Lean, boot-ready (~4100 tokens). What goes in a hermitcrab shell.
+- **touchstone-full.json** — Complete v4 reference including speculative structures (resonance mapping, density compression, standing wave, topological combination).
+- **fundamentals-typology.md** — The combinatorial variables that generate the space of possible block types.
 
-## How to Use
+## What is a pscale block?
 
-1. Read `keystone.json` pscale 0 — it tells you everything
-2. Fork this repo
-3. Create domain-specific keystones for your problem space
-4. The operational keystone is the smallest stone that holds the arch
+Nested JSON where digit keys (0-9) address meaning at different scales. Each nesting level is one pscale step. Content lives at the underscore key (`_`). The node at pscale 0 always describes what the block is and how to use it.
 
-## Origins
+Read `touchstone.json` — it explains itself.
 
-Created by **David Pinto** (social anthropologist, Cambridge; 25 years Fulcrum research) and **Claude** (Anthropic), February 2026.
+## Tuning fork
 
-Part of the **Xstream** and **Hermitcrab** projects.
+A **tuning fork** is a minimal vertical JSON defining what pscale depths mean for blocks sharing the same tuning number. The JSON field is `tuning` (terse, functional). In prose, say tuning fork — a resonance reference, not an authority. Like musicians using the same reference tone to get in tune with each other, without a conductor. A set of tuning forks, like a piano technician's kit.
 
-## License
+## Part of
 
-Open. Freely usable by anyone.
+- [Hermitcrab](https://hermitcrab.me) — persistent LLM instances with structured knowledge
+- [Xstream](https://github.com/happyseaurchin/xstream) — coordination platform for collective narrative
+
+The pscale JSON block format is open and freely usable by anyone.
